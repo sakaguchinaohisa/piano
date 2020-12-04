@@ -1,0 +1,48 @@
+@media (max-width: 1000px) {
+  .piano {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 670px) {
+  .piano {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .youtube {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    padding-top: 130px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .fa.menu-icon {
+    display: block;
+  }
+}

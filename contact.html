@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="https://kit.fontawesome.com/51a768dbe1.js" crossorigin="anonymous"></script>
+  <title>坂口尚久</title>
+</head>
+<body>
+  <header>
+    <div class="cotainer">
+      <div class="header-left">
+        <h1>Naohisa Sakaguchi</h1>
+      </div>
+      <span class="fa fa-bars menu-icon" id="open"></span>
+      <div class="header-right">
+        <a class="login" href="index.html">TOP</a>
+        <a class="login" href="contact.html">Profile</a>
+        <a class="login" href="contact.html">lesson</a>
+        <a class="login" href="contact.html">演奏依頼</a>
+      </div>
+    </div>
+  </header>
+  <div class="overlay">
+    <i class="fas fa-window-close" id="close"></i>
+    <nav>
+      <ul>
+        <li><a class="login" href="index.html">TOP</a></li>
+        <li><a class="login" href="contact.html">Profile</a></li>
+        <li><a class="login" href="contact.html">lesson</a></li>
+        <li><a class="login" href="contact.html">演奏依頼</a></li>
+      </ul>
+    </nav>
+  </div>
+<div class="contact">
+  <p><label> お名前 (必須)<br>
+      <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required wpcf7-not-valid" aria-required="true" aria-invalid="true"><span class="wpcf7-not-valid-tip" role="alert" aria-hidden="true">必須項目に入力してください。</span></span> </label></p>
+  <p><label> メールアドレス (必須)<br>
+      <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email wpcf7-not-valid" aria-required="true" aria-invalid="true"><span class="wpcf7-not-valid-tip" role="alert" aria-hidden="true">必須項目に入力してください。</span></span> </label></p>
+  <p><label> 題名<br>
+      <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span> </label></p>
+  <p><label> メッセージ本文<br>
+      <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label></p>
+  <p><label> 添付ファイル [gif|png|jpg|jpeg|txt|pdf]<br>
+      <span class="wpcf7-form-control-wrap your-file"><input type="file" name="your-file" size="40" class="wpcf7-form-control wpcf7-file" accept=".gif,.png,.jpg,.jpeg,.txt,.pdf" aria-invalid="false"></span> </label></p>
+  <p><input type="submit" value="送信" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
+  <div class="wpcf7-response-output" role="alert" aria-hidden="true" style="">入力内容に問題があります。確認して再度お試しください。</div></form></div>
+</div>
+  <script src="js/main.js"></script>
+</body>
+</html>
