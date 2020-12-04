@@ -145,7 +145,7 @@ header {
 .top-wrapper {
   height: 900px;
   padding: 80px 20px 400px 20px;
-  background-image: url(file:///Users/artcat/Desktop/IMG_4570%202.jpg);
+  background-image: url("../img/IMG_4570\ 2.jpg");
   background-size: cover;
   color: white;
   text-align: center;
