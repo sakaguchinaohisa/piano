@@ -28,7 +28,8 @@
 
   .top-wrapper {
     padding-top: 130px;
-    background-position: center;
+    height: 600px;
+    /* background-position: center; */
   }
 
   .top-wrapper h2 {
